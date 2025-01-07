@@ -167,6 +167,7 @@
     display: inline-block;
     cursor: pointer;
     line-height: 1.5;
+    position: relative;
 }
 
 .hover-underline::after {
@@ -176,7 +177,7 @@
     left: 0;
     width: 0; /* Starts with no width */
     height: 3px; /* Thickness of the underline */
-    background-color: #a15818; /* Underline color */
+    background-color: #a15818d3; /* Underline color */
     transition: width 0.2s ease; /* Smooth transition */
 }
 
