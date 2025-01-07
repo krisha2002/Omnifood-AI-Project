@@ -181,7 +181,7 @@
     transition: width 0.2s ease; /* Smooth transition */
 }
 
-.hover-underline:hover::after {
+.hover-underline:hover::after, .hover-underline:active::after {
     width: 90%; /* Expands the underline to full width */
 }
 
@@ -632,6 +632,11 @@ color: #6f6f6f;
 
 .cta-form input::placeholder{
     color: #c1bcbc;
+}
+
+.btn--form:active{
+    background-color: white;
+    color: black;
 }
 
 .cta *:focus{
