@@ -634,11 +634,6 @@ color: #6f6f6f;
     color: #c1bcbc;
 }
 
-.btn--form:active{
-    background-color: white;
-    color: black;
-}
-
 .cta *:focus{
     outline: none;
     /* outline: 4px dotted #e67e22;
