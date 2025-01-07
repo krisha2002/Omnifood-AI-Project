@@ -176,7 +176,6 @@ Instead, 1rem = 1em = 16px */
 
     /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
-
     /* 3) Hide it from screen readers */
     visibility: hidden;
 }
@@ -196,6 +195,10 @@ Instead, 1rem = 1em = 16px */
 .main-nav-link:link,
 .main-nav-link:visited{
     font-size: 3rem;
+}
+
+.nav-open{
+    z-index: -2;
 }
 
 .nav-open .icon-mobile-nav[name="close"]{
