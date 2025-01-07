@@ -198,7 +198,7 @@ Instead, 1rem = 1em = 16px */
 }
 
 .nav-open{
-    z-index: -2;
+    z-index:10000;
 }
 
 .nav-open .icon-mobile-nav[name="close"]{
